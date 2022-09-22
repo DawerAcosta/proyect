@@ -1,0 +1,73 @@
+.rojo
+    {color: red;}
+.rosa
+    {color:rgb(145, 65, 98);}
+.fondorosa
+    {background-color: rgb(167, 76, 76);}
+    a {color: rgb(255, 255, 255)}
+li {color: rgb(107, 53, 53);}
+li {background-color: rgb(243, 164, 164);}
+
+body{background-color: rgb(187, 127, 127);}
+
+label {font-size: x-large;}
+h1 {font-size: 3cm;}
+h1 {color: rgb(255, 255, 255);}
+blockquote {width: 500px; width: 500px;}
+h2 {color: rgb(255, 255, 255);}
+h2 {font-size: 2cm;}
+.derecha {text-align: right;}
+.limitantesdeimagen
+{border: 10cm ;
+border-color: aqua;
+margin: 5px;
+}
+.menu
+{
+overflow: scroll;
+height: 100px;
+width: 100px;
+border: solid 5px white;
+position: absolute 5px;
+}
+.centro
+{
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 200px;
+    height: 100px;
+ 
+
+}
+.colorido
+{
+    animation-name: cambiacolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes cambiacolor {
+    0%{background-color: rgb(223, 128, 187);
+    }
+    100%{background-color: rgb(221, 172, 196)}
+    
+ }
+    
+
+.distanciamiento
+{
+    margin-top: 200px;
+}
+.carousel-inner img {
+    width: 100%;
+    max-height: 500px;
+}
+.carousel-inner{
+    height: 500px;
+    width: 500px;
+    margin:auto;
+    margin-top: 50px;
+	
+   }
